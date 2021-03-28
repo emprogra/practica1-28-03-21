@@ -12,5 +12,7 @@ namespace ApiPelicula.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<ApiPelicula.Models.Movie> Movies { get; set; }
     }
 }
